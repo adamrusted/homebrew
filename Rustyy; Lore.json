@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "rustyy",
+        "full": "Rustyy's Homebrew: Lore",
+        "abbreviation": "RSTY",
+        "color": "ff0000",
+        "authors": [],
+        "convertedBy": [],
+        "dateReleased": "2025-07-23",
+        "version": "0.0",
+        "url": "https://github.com/adamrusted/homebrew"
+      }
+    ],
+    "edition": "one",
+    "dateAdded": 1753293600,
+    "dateLastModified": 1753293600
+  }
+}
