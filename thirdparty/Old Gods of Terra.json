@@ -1,0 +1,354 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "OGT",
+        "full": "Old Gods of Terra",
+        "abbreviation": "OGT",
+        "convertedBy": ["Rustyy (he / him)"],
+        "dateReleased": "2025-07-23",
+        "version": "0.0",
+        "url": "https://github.com/adamrusted/homebrew"
+      }
+    ],
+    "edition": "one",
+    "status": "wip",
+    "dateAdded": 1753293600,
+    "dateLastModified": 1753293600
+  },
+  "deity": [
+    {
+      "name": "Anubis",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["L", "N"],
+      "title": "God of judgment and death",
+      "domains": ["Death", "Grave", "Order"],
+      "symbol": "Black jackal",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Apep",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["N", "E"],
+      "title": "God of evil, fire, and serpents",
+      "domains": ["Trickery"],
+      "symbol": "Flaming snake",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Aphrodite",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "G"],
+      "title": "Goddess of love and beauty",
+      "domains": ["Light"],
+      "symbol": "Sea shell",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Apollo",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "G"],
+      "title": "God of light, music, and healing",
+      "domains": ["Knowledge", "Life", "Light"],
+      "symbol": "Lyre",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Ares",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "E"],
+      "title": "God of war and strife",
+      "domains": ["War"],
+      "symbol": "Spear",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Artemis",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N", "G"],
+      "title": "Goddess of hunting and childbirth",
+      "domains": ["Life", "Nature"],
+      "symbol": "Bow and arrow on lunar disk",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Athena",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["L", "G"],
+      "title": "Goddess of wisdom and civilization",
+      "domains": ["Knowledge", "Order", "War"],
+      "symbol": "Owl",
+      "category": "Old Gods of Terra",
+      "legacy": true,
+      "reprintAlias": "athena_greek_phb"
+    },
+    {
+      "name": "Bast",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["C", "G"],
+      "title": "Goddess of cats and vengeance",
+      "domains": ["War"],
+      "symbol": "Cat",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Bes",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["C", "N"],
+      "title": "God of luck and music",
+      "domains": ["Trickery"],
+      "symbol": "Image of the misshapen deity",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Demeter",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N", "G"],
+      "title": "Goddess of agriculture",
+      "domains": ["Life"],
+      "symbol": "Mare's head",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Dionysus",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "N"],
+      "title": "God of mirth and wine",
+      "domains": ["Life"],
+      "symbol": "Thyrsus (staff tipped with pine cone)",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hades",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["L", "E"],
+      "title": "God of the underworld",
+      "domains": ["Death", "Grave"],
+      "symbol": "Black ram",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hathor",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["N", "G"],
+      "title": "Goddess of love, music, and motherhood",
+      "domains": ["Life", "Light"],
+      "symbol": "Horned cow's head with lunar disk",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hecate",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "E"],
+      "title": "Goddess of magic and the moon",
+      "domains": ["Arcana", "Knowledge", "Trickery"],
+      "symbol": "Setting moon",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hephaestus",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N", "G"],
+      "title": "God of smithing and craft",
+      "domains": ["Forge", "Knowledge"],
+      "symbol": "Hammer and anvil",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hera",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "N"],
+      "title": "Goddess of marriage and intrigue",
+      "domains": ["Trickery"],
+      "symbol": "Fan of peacock feathers",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hercules",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "G"],
+      "title": "God of strength and adventure",
+      "domains": ["Tempest", "War"],
+      "symbol": "Lion's head",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hermes",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "G"],
+      "title": "God of travel and commerce",
+      "domains": ["Trickery"],
+      "symbol": "Caduceus (winged staff and serpents)",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Hestia",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N", "G"],
+      "title": "Goddess of home and family",
+      "domains": ["Life"],
+      "symbol": "Hearth",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Imhotep",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["N", "G"],
+      "title": "God of crafts and medicine",
+      "domains": ["Knowledge"],
+      "symbol": "Step pyramid",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Isis",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["N", "G"],
+      "title": "Goddess of fertility and magic",
+      "domains": ["Arcana", "Knowledge", "Life"],
+      "symbol": "Ankh and star",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Nephthys",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["C", "G"],
+      "title": "Goddess of death and grief",
+      "domains": ["Death"],
+      "symbol": "Horns around a lunar disk",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Nike",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["L", "N"],
+      "title": "Goddess of victory",
+      "domains": ["War"],
+      "symbol": "Winged woman",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Osiris",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["L", "G"],
+      "title": "God of nature and the underworld",
+      "domains": ["Grave", "Life", "Nature"],
+      "symbol": "Crook and flail",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Pan",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "N"],
+      "title": "God of nature",
+      "domains": ["Nature"],
+      "symbol": "Syrinx (pan pipes)",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Poseidon",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["C", "N"],
+      "title": "God of the sea and earthquakes",
+      "domains": ["Tempest"],
+      "symbol": "Trident",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Ptah",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["L", "N"],
+      "title": "God of crafts, knowledge, and secrets",
+      "domains": ["Knowledge"],
+      "symbol": "Bull",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Re-Horakhty",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["L", "G"],
+      "title": "God of the sun, ruler of the gods",
+      "domains": ["Life", "Light"],
+      "symbol": "Solar disk encircled by serpent",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Set",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["C", "E"],
+      "title": "God of darkness and desert storms",
+      "domains": ["Death", "Tempest", "Trickery"],
+      "symbol": "Coiled cobra",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Sobek",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["L", "E"],
+      "title": "God of water and crocodiles",
+      "domains": ["Nature", "Tempest"],
+      "symbol": "Crocodile head with horns and plumes",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Thoth",
+      "source": "OGT",
+      "pantheon": "Egyptian",
+      "alignment": ["N"],
+      "title": "God of knowledge and wisdom",
+      "domains": ["Knowledge"],
+      "symbol": "Ibis",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Tyche",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N"],
+      "title": "Goddess of good fortune",
+      "domains": ["Trickery"],
+      "symbol": "Red pentagram",
+      "category": "Old Gods of Terra"
+    },
+    {
+      "name": "Zeus",
+      "source": "OGT",
+      "pantheon": "Greek",
+      "alignment": ["N"],
+      "title": "God of the sky, ruler of the gods",
+      "domains": ["Tempest"],
+      "symbol": "Fist full of lightning bolts",
+      "category": "Old Gods of Terra"
+    }
+  ]
+}

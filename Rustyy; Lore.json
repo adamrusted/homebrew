@@ -1,21 +1,188 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew/homebrew.json",
   "_meta": {
-    "sources": [
-      {
-        "json": "rustyy",
-        "full": "Rustyy's Homebrew: Lore",
-        "abbreviation": "RSTY",
-        "color": "ff0000",
-        "authors": [],
-        "convertedBy": [],
-        "dateReleased": "2025-07-23",
-        "version": "0.0",
-        "url": "https://github.com/adamrusted/homebrew"
-      }
-    ],
+    "sources": [{ "json": "RST", "abbreviation": "RST", "full": "Rustyy", "version": "0.1" }],
+    "dateAdded": 0,
+    "dateLastModified": 0,
     "edition": "one",
-    "dateAdded": 1753293600,
-    "dateLastModified": 1753293600
-  }
+    "status": "wip"
+  },
+  "deity": [
+    {
+      "source": "RST",
+      "name": "Ikaris",
+      "title": "the Ember-Spear",
+      "alignment": ["C", "E"],
+      "pantheon": "Unknown",
+      "altNames": ["The Flame without Master", "The Burnt Saint", "Ashfather"],
+      "domains": ["Death", "War"],
+      "symbol": "Burning spear plunged into a spiral of ash",
+      "worshipers": "Raiders, mercenaries, pyromancers, cultists of destruction",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Ikaris was born in the last breath of a dying god, birthed from the scream of a city razed not for conquest, but spite. He is the god of fires that cannot be extinguished, of cities leveled without purpose, of armies that kill for no cause but fury. Unlike gods of flame who bring warmth or rebirth, Ikaris is fire's spiteful scream — uncontrolled, mindless, and starving.", "He is depicted as a charred warrior wrapped in ever-burning bandages, his face a skull of cracked obsidian, his voice the roar of collapsing towers. His followers do not conquer; they burn and salt the earth. His apocalyptic sermons scorch stone and are spoken by tongues blackened to ash."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["In his wake, not even memory survives."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Velkhar",
+      "title": "the Unmaking Tongue",
+      "alignment": ["N", "E"],
+      "pantheon": "Unknown",
+      "altNames": ["The Betrayer-Saint", "The Whisperer in Chains", "Father of Lies"],
+      "domains": ["Trickery", "Death"],
+      "symbol": "A blackened tongue curled around a shattered crown",
+      "worshipers": "Spies, assassins, schemers, betrayers, secretive cults",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Where truth once shaped the divine order, Velkhar slithered in shadows, whispering truths so twisted they turned allies into executioners. He is the god of beautiful lies and slow poison, of promises broken not in rage, but in cold calculation. His touch does not scorch — it erodes, unravels, hollows out.", "Velkhar appears as a serene, androgynous figure cloaked in chains of silk and thorns, with a mouth sewn shut but always whispering in the minds of those who doubt. He thrives in court intrigue, holy schisms, and the slow collapse of faith. Velkhar demands no violence; he inspires it through corrupted trust and unravelled meaning."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["Velkhar does not kill — he makes others want to."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Cirelda",
+      "title": "the Giver of Seasons",
+      "alignment": ["N", "G"],
+      "pantheon": "Unknown",
+      "altNames": ["The Seed-Mother", "Lady of the Turning Earth", "Mistress of Green and Gold"],
+      "domains": ["Life", "Nature"],
+      "symbol": "A sprouting seed beneath a rising sun",
+      "worshipers": "Farmers, druids, midwives, herbalists, harvesters",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Cirelda appears most often as a halfling woman, hands dirt-stained, with vines growing through her hair and cracked earth at her feet. Her body may shift subtly with the seasons - green in spring, golden in summer, russet in autumn, pale in winter.", "She governs the slow miracle of the natural world — sowing, growth, decay, and renewal. Her worship is quiet, yet essential: grain scattered on fresh soil, a whispered prayer before a child is born, a wreath placed on fresh-turned earth.", "She is not an ancient god of war or prophecy. She emerged wherever people waited on the land, watched the skies, and hoped for something to grow."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["The seed remembers the sun, even in the dark."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Matrien",
+      "title": "the Hearth-Keeper",
+      "alignment": ["L", "G"],
+      "pantheon": "Unknown",
+      "altNames": ["The Vigil-Warmth", "Stonehand Guardian", "Kindling Soul"],
+      "domains": ["Life", "Peace"],
+      "symbol": "A flame cradled between two hands",
+      "worshipers": "Caretakers, teachers, defenders, village elders",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Matrien is often shown as a broad-shouldered goliath, draped in patchwork robes or woolen shawls, their skin textured like hearthstone or warm clay.", "They watch over the home, the shared table, and the quiet vigil. Where one holds the door for a stranger, or a neighbor mends another's roof, Matrien is present.", "They are not revered with pageantry, but through humble practice: in the breaking of bread, in the tending of fires, in the defense of the small against the uncaring. They are invoked during childbirth, first snowfalls, and final farewells.", "Some claim Matrien is as old as memory. Others believe they are born fresh in every place that chooses kindness over cruelty."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["What is shared is never truly lost."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Velmarra",
+      "title": "Lady of the Ledger and Loom",
+      "alignment": ["L", "N"],
+      "pantheon": "Unknown",
+      "altNames": ["She Who Measures", "Balancebinder", "Matron of Enough"],
+      "domains": ["Forge", "Order"],
+      "symbol": "A sheaf of grain bound in green ribbon over a set of scales",
+      "worshipers": "Traders, millers, cooks, crafters, stewards",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Velmarra is usually shown as a dwarven woman with coppery skin and a cloak woven from threads of gold and green. She holds both a ledger and a sickle, and is always shown with her sleeves rolled up.", "She is the god of preparation, fairness, and earned abundance. She is not a god of excess, but of \"enough\" — enough to store, to share, to sustain.", "Her shrines double as granaries and communal storehouses. Her clergy help manage local economies, keep winter stores, and ensure no one goes hungry by oversight or greed.", "Velmarra rarely speaks through myths. Her truth is in balance — in grain weighed justly, and hands paid fairly."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["Measure twice, give once, and none go hungry."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Seris",
+      "title": "the New Dawn",
+      "alignment": ["N", "G"],
+      "pantheon": "Unknown",
+      "altNames": ["Ashborn Light", "The Pale Flame"],
+      "domains": ["Light", "Life", "Grave"],
+      "symbol": "A rising sun over broken ground",
+      "worshipers": "Healers, mourners, exiles, those seeking change",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Seris appears as a young elven woman, wrapped in pale robes, hair flowing like morning mist. Sometimes she is faceless, a silhouette of light stepping through a doorway.", "She is worshipped in liminal spaces: dawn, spring, the beginning of life or the end of all things. She is called upon by the broken, the grieving, and the hopeful.", "No grand temples are built in her name. Instead, candles are lit in her name beside graves, on long journeys, or at the opening of a new path.", "Some say she rose from the ashes of a time when all seemed lost — not a god of vengeance or restoration, but of gentle beginnings."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["Even ashes make fertile ground."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Myrrash",
+      "title": "the Howl Between Worlds",
+      "alignment": ["C", "N"],
+      "pantheon": "Unknown",
+      "altNames": ["Stormsage of the Void", "Skymind"],
+      "domains": ["Arcana", "Tempest"],
+      "symbol": "A jagged spiral struck through by a lightning bolt",
+      "worshipers": "Wild sorcerers, elementalists, prophets of disaster",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Myrrash is worshipped by storm-chasers, planar scholars, and those touched by madness. Said to have been born in the moment a bolt of lightning struck an open spellbook during a planar rift, they represent chaotic insight — flashes of brilliance that crack the mind. Their sermons are storms; their temples are found only on mountaintops or at the edge of arcane catastrophes.", "They speak in thunderclaps and riddles, their truths always half-buried beneath static and awe. To Myrrash, magic is no mere tool — it is a living storm, and mortals are fools to claim control."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["When the sky speaks, don't ask it to explain."]
+        }
+      ]
+    },
+    {
+      "source": "RST",
+      "name": "Thalira",
+      "title": "She of Root and Ruin",
+      "alignment": ["C", "E"],
+      "pantheon": "Unknown",
+      "altNames": ["The Thornmother", "Verdant Blight", "Root-Queen of the Deep Green"],
+      "domains": ["Nature", "Grave"],
+      "symbol": "A tangle of thorns wrapped around a jawbone",
+      "worshipers": "Druidic death cults, feral tribes, Assassins specialising in poisons",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": ["Thalira is not nature's beauty — she is its indifference, predation, and wrath. She is worshipped by those who believe the wilderness should not be tamed, but should devour what civilization dares to build. Her forests do not heal; they hunt. Her rot feeds nothing but decay.", "Legends speak of her form as a corpse entwined with moss and venomous flowering vines. She teaches that death is not an ending but a feast — one the soil remembers."]
+        },
+        {
+          "type": "insetReadaloud",
+          "name": "Proverb",
+          "entries": ["The earth does not mourn you — it consumes you."]
+        }
+      ]
+    }
+  ]
 }
