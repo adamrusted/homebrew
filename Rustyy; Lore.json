@@ -1,19 +1,117 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew/homebrew.json",
   "_meta": {
-    "sources": [{ "json": "RST", "abbreviation": "RST", "full": "Rustyy", "version": "0.1" }],
+    "sources": [
+      {
+        "json": "RUSTY",
+        "abbreviation": "RUSTY",
+        "authors": ["Rustyy"],
+        "convertedBy": ["Rustyy [he/him]"],
+        "full": "Rustyy",
+        "version": "0.1"
+      }
+    ],
     "dateAdded": 0,
     "dateLastModified": 0,
     "edition": "one",
     "status": "wip"
   },
+  "subrace": [
+    {
+      "name": "Offworlder",
+      "raceName": "Human",
+      "raceSource": "XPHB",
+      "source": "RUSTY",
+      "entries": [
+        {
+          "type": "entries",
+          "name": "Not of this World",
+          "entries": ["You are from a different world, with little knowledge of how this world operates."]
+        }
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Gurk",
+      "group": ["Goblinoids"],
+      "source": "RUSTY",
+      "isNpc": true,
+      "size": ["S"],
+      "type": {
+        "type": "fey",
+        "tags": ["goblinoid"]
+      },
+      "alignment": ["C", "N"],
+      "ac": [17],
+      "hp": {
+        "average": 21,
+        "formula": "6d6"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "fluff": {
+        "type": "entries",
+        "entries": ["Test"]
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 10,
+      "skill": {
+        "stealth": "+6"
+      },
+      "senses": ["darkvision 60 ft."],
+      "passive": 9,
+      "languages": ["Common", "Goblin"],
+      "cr": "1",
+      "gear": ["chain shirt|xphb", "scimitar|xphb", "shield|xphb", "shortbow|xphb"],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": ["Gurk makes two attacks, using Scimitar or Shortbow in any combination."]
+        },
+        {
+          "name": "Scimitar",
+          "entries": ["{@atkr m} {@hit 4}, reach 5 ft. {@h}5 ({@damage 1d6 + 2}) Slashing damage, plus 2 ({@damage 1d4}) Slashing damage if the attack roll had {@variantrule Advantage|XPHB}."]
+        },
+        {
+          "name": "Shortbow",
+          "entries": ["{@atkr r} {@hit 4}, range 80/320 ft. {@h}5 ({@damage 1d6 + 2}) Piercing damage, plus 2 ({@damage 1d4}) Piercing damage if the attack roll had {@variantrule Advantage|XPHB}."]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Nimble Escape",
+          "entries": ["Gurk takes the Disengage or Hide action."]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Redirect Attack",
+          "entries": ["{@actTrigger} A creature Gurk can see makes an attack roll against it. {@actResponse} Gurk chooses a Small or Medium ally within 5 feet of itself. Gurk and that ally swap places, and the ally becomes the target of the attack instead."]
+        }
+      ],
+      "environment": ["urban"],
+      "treasure": ["implements", "individual"],
+      "senseTags": ["D"],
+      "actionTags": ["Multiattack"],
+      "languageTags": ["C", "GO"],
+      "damageTags": ["P", "S"],
+      "miscTags": ["MA", "MLW", "RA", "RNG"],
+      "hasToken": true
+    }
+  ],
   "deity": [
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Ikaris",
       "title": "the Ember-Spear",
       "alignment": ["C", "E"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["The Flame without Master", "The Burnt Saint", "Ashfather"],
       "domains": ["Death", "War"],
       "symbol": "Burning spear plunged into a spiral of ash",
@@ -31,11 +129,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Velkhar",
       "title": "the Unmaking Tongue",
       "alignment": ["N", "E"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["The Betrayer-Saint", "The Whisperer in Chains", "Father of Lies"],
       "domains": ["Trickery", "Death"],
       "symbol": "A blackened tongue curled around a shattered crown",
@@ -53,11 +152,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Cirelda",
       "title": "the Giver of Seasons",
       "alignment": ["N", "G"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["The Seed-Mother", "Lady of the Turning Earth", "Mistress of Green and Gold"],
       "domains": ["Life", "Nature"],
       "symbol": "A sprouting seed beneath a rising sun",
@@ -75,11 +175,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Matrien",
       "title": "the Hearth-Keeper",
       "alignment": ["L", "G"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["The Vigil-Warmth", "Stonehand Guardian", "Kindling Soul"],
       "domains": ["Life", "Peace"],
       "symbol": "A flame cradled between two hands",
@@ -97,11 +198,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Velmarra",
       "title": "Lady of the Ledger and Loom",
       "alignment": ["L", "N"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["She Who Measures", "Balancebinder", "Matron of Enough"],
       "domains": ["Forge", "Order"],
       "symbol": "A sheaf of grain bound in green ribbon over a set of scales",
@@ -119,11 +221,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Seris",
       "title": "the New Dawn",
       "alignment": ["N", "G"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["Ashborn Light", "The Pale Flame"],
       "domains": ["Light", "Life", "Grave"],
       "symbol": "A rising sun over broken ground",
@@ -141,11 +244,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Myrrash",
       "title": "the Howl Between Worlds",
       "alignment": ["C", "N"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["Stormsage of the Void", "Skymind"],
       "domains": ["Arcana", "Tempest"],
       "symbol": "A jagged spiral struck through by a lightning bolt",
@@ -163,11 +267,12 @@
       ]
     },
     {
-      "source": "RST",
+      "source": "RUSTY",
       "name": "Thalira",
       "title": "She of Root and Ruin",
       "alignment": ["C", "E"],
-      "pantheon": "Unknown",
+      "pantheon": "Myrrane",
+      "category": "The Ashen Pantheon",
       "altNames": ["The Thornmother", "Verdant Blight", "Root-Queen of the Deep Green"],
       "domains": ["Nature", "Grave"],
       "symbol": "A tangle of thorns wrapped around a jawbone",
@@ -181,6 +286,107 @@
           "type": "insetReadaloud",
           "name": "Proverb",
           "entries": ["The earth does not mourn you — it consumes you."]
+        }
+      ]
+    }
+  ],
+  "book": [
+    {
+      "source": "RUSTY",
+      "name": "A Primer to Myrrane",
+      "id": "APtM",
+      "group": "homebrew",
+      "contents": [
+        {
+          "name": "About"
+        },
+        {
+          "name": "History",
+          "headers": ["Timeline", "Maps"]
+        },
+        {
+          "name": "Myrrane"
+        },
+        {
+          "name": "Starting Town",
+          "headers": ["Maps"]
+        },
+        {
+          "name": "Players"
+        },
+        {
+          "name": "Species",
+          "headers": ["Humans"]
+        }
+      ]
+    }
+  ],
+  "bookData": [
+    {
+      "id": "APtM",
+      "source": "RUSTY",
+      "data": [
+        {
+          "name": "A Primer to Myrrane",
+          "type": "section",
+          "entries": [
+            {
+              "type": "image",
+              "href": { "type": "external", "url": "#" }
+            },
+            { "type": "quote", "entries": [], "by": "Test" },
+            { "type": "inset", "name": "Test", "entries": [] }
+          ]
+        },
+        {
+          "name": "History",
+          "type": "section",
+          "entries": [
+            {
+              "name": "Timeline",
+              "type": "entries",
+              "entries": []
+            },
+            {
+              "name": "Maps",
+              "type": "entries",
+              "entries": []
+            }
+          ]
+        },
+        {
+          "name": "Myrrane",
+          "type": "section",
+          "entries": []
+        },
+        {
+          "name": "Starting Town",
+          "type": "section",
+          "entries": [
+            {
+              "name": "Maps",
+              "type": "entries",
+              "entries": []
+            }
+          ]
+        },
+        {
+          "name": "Players",
+          "type": "section",
+          "entries": []
+        },
+        {
+          "name": "Species",
+          "type": "section",
+          "entries": [
+            {
+              "name": "{@race Human|XPHB|Humans}",
+              "type": "entries",
+              "entries": ["The most common race in Myrrane, {@race Human|XPHB|Humans} are found throughout the land."]
+            },
+            { "name": "{@race Human (Offworlder)|RUSTY|Offworlder}", "type": "entries", "entries": ["{@race Human (Offworlder)|RUSTY|Offworlders} are humans from 'our world'."] },
+            { "name": "Elves", "type": "entries", "entries": [] }
+          ]
         }
       ]
     }
